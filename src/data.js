@@ -4,7 +4,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/Frame 26.jpg',
+      image: './public/product-images-optimize/Frame 26.jpg',
       colornum: '1 Colour'
    },
    {
@@ -12,7 +12,7 @@ const Listings = [
       name: 'Novaweave Phantom Pulse',
       gender: 'Men',
       price: '100,540',
-      image: '/product-images-optimize/Frame 27.jpg',
+      image: './public/product-images-optimize/Frame 27.jpg',
       colornum: '3 Colours'
    },
    {
@@ -20,7 +20,7 @@ const Listings = [
       name: 'Atlas Ascent GTX',
       gender: 'Women',
       price: '260,000',
-      image: '/product-images-optimize/Frame 28.jpg',
+      image: './public/product-images-optimize/Frame 28.jpg',
       colornum: '3 Colours'
    },
    {
@@ -28,7 +28,7 @@ const Listings = [
       name: 'Element MTG 1000',
       gender: 'Women',
       price: '500,000',
-      image: '/product-images-optimize/Frame 29.jpg',
+      image: './public/product-images-optimize/Frame 29.jpg',
       colornum: '1 Colour'
    },
    {
@@ -36,7 +36,7 @@ const Listings = [
       name: 'Novaweave Phantom Pulse',
       gender: 'Women',
       price: '100,540',
-      image: '/product-images-optimize/Frame 31.jpg',
+      image: './public/product-images-optimize/Frame 31.jpg',
       colornum: '3 Colours'
    },
    {
@@ -44,7 +44,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/Frame 33.jpg',
+      image: './public/product-images-optimize/Frame 33.jpg',
       colornum: '3 Colours'
    },
    {
@@ -52,7 +52,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/Frame 35.jpg',
+      image: './public/product-images-optimize/Frame 35.jpg',
       colornum: '1 Colour'
    },
    {
@@ -60,7 +60,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/Frame 37.jpg',
+      image: './public/product-images-optimize/Frame 37.jpg',
       colornum: '1 Colour'
    },
    {
@@ -68,7 +68,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/image 11.jpg',
+      image: './public/product-images-optimize/image 11.jpg',
       colornum: '3 Colours'
    },
    {
@@ -76,7 +76,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/image 15.jpg',
+      image: './public/product-images-optimize/image 15.jpg',
       colornum: '3 Colours'
    },
    {
@@ -84,7 +84,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/image 18.jpg',
+      image: './public/product-images-optimize/image 18.jpg',
       colornum: '3 Colours'
    },
    {
@@ -92,7 +92,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/image 21.jpg',
+      image: './public/product-images-optimize/image 21.jpg',
       colornum: '3 Colours'
    },
    {
@@ -100,7 +100,7 @@ const Listings = [
       name: 'Zephyr Swiftstrike Pro',
       gender: 'Men',
       price: '140,540',
-      image: '/product-images-optimize/image 29.jpg',
+      image: './public/product-images-optimize/image 29.jpg',
       colornum: '3 Colours'
    }
 ];
