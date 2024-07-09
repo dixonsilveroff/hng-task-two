@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import './App.css'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
+import SliderOne from './components/SliderOne.jsx'
+// import SliderTwo from './components/SliderTwo.jsx'
 import styled from '@emotion/styled'
 import HeroSneaker from '../public/images/hero-sneaker.jpg'
-import Slider from 'react-slick'
 
 
 const Main = styled.main`
@@ -38,7 +39,7 @@ function App() {
         <HeroSection>
           <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start", maxWidth: "44rem"}}>
             <p style={{ fontFamily: "Archivo", fontSize: "5rem", fontWeight: "500", lineHeight: "6rem", textAlign: "left", textTransform: "uppercase", color: "#fff" }}>Crafted for Champions. made for you!!!</p>
-            <a href="" style={{ padding: "1rem 4rem", textAlign: "center", fontFamily: "Satoshi", fontSize: "1.5rem", fontWeight: "400", lineHeight: "2rem", backgroundColor: "transparent", color: "#fff", textDecoration: "none", border: "2px solid #fff", borderRadius: "10rem" }}>Our Collections</a>
+            <a href="./src/ProductList.jsx" style={{ padding: "1rem 4rem", textAlign: "center", fontFamily: "Satoshi", fontSize: "1.5rem", fontWeight: "400", lineHeight: "2rem", backgroundColor: "transparent", color: "#fff", textDecoration: "none", border: "2px solid #fff", borderRadius: "10rem" }}>Our Collections</a>
           </div>
           <div>
             <img src={HeroSneaker} alt="Hero Sneaker" />
@@ -46,16 +47,14 @@ function App() {
         </HeroSection>
         <NewCollectionsSection>
           <p style={{fontFamily: "Archivo", fontSize: "3rem", fontWeight: "500", lineHeight: "3rem", textTransform: "uppercase", color: "#2e2e2e" }}>NEW COLLECTIONS</p>
-          <div>
-            <Slider></Slider>
-          </div>
+          <SliderOne></SliderOne>
+          
         </NewCollectionsSection>
         <BestSellerSection>
           <p style={{fontFamily: "Archivo", color: "#2e2e2e", fontSize: "3rem", lineHeight: "3rem", textTransform: "uppercase" }}>BEST SELLERS</p>
-          <div>
-            <Slider></Slider>
-          </div>
-        </BestSellerSection>
+          {/* <SliderTwo></SliderTwo> */}
+          
+         </BestSellerSection>
       </Main>
       <Footer></Footer>
     </>
